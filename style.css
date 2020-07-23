@@ -1,0 +1,142 @@
+/* Include the padding and border in an element's total width and height */
+* {
+  box-sizing: border-box;
+}
+body {background-color: #9CCEA3;}
+
+/* Remove margins and padding from the list */
+ul.first {
+  margin: 0;
+  padding: 0;
+}
+
+ul.second {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+
+
+.column{
+    width: 50%;
+    float: left;
+}
+
+textarea {
+  border-spacing: 10px;
+}
+
+
+h2 {
+      -webkit-text-stroke: .7px white; /* width and color */
+
+      font-family: "Comic Sans MS", cursive, sans-serif; color: red;
+}
+
+h1 {
+    -webkit-text-stroke: .7px white; /* width and color */
+
+    font-family: "Comic Sans MS", cursive, sans-serif; color: black;
+}
+
+h3 {
+    -webkit-text-stroke: .7px white; /* width and color */
+
+    font-family: "Comic Sans MS", cursive, sans-serif; color: black;
+}
+/* Style the list items */
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #71BB7B;
+  font-size: 18px;
+  transition: 0.2s;
+  display: inline
+
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ul li:nth-child(odd) {
+  background: #9FE9AB;
+}
+
+
+/* Style the header */
+.header {
+  background-color: #58A463;
+  padding: 30px 40px;
+  color: black;
+  text-align: center;
+  border-style: solid;
+}
+
+/* Clear floats after the header */
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btnTranslate {
+  padding: 0px;
+  width: 200%;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+#btnTranslate:hover {
+  background-color: #bbb;
+/* Style the "Add" button */
+}
+
+#btnAdd {
+  padding: 0px;
+  width: 200%;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+#btnAdd:hover {
+  background-color: #bbb;
+}
+
+#txtSource {
+    background-color: #8FC998;
+    padding: 20px 30px;
+    color: black;
+    border-style: solid;
+}
+
+#txtTarget {
+  background-color: #8FC998;
+  padding: 20px 30px;
+  color: black;
+  border-style: solid;
+}
